@@ -1,0 +1,40 @@
+.progressBar input[type="range"] {
+  -webkit-appearance: none;
+  position: relative;
+  width: 100%;
+  height: 2px;
+  border-radius: 100px;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  background-color: ;
+}
+
+.progressBar input[type="range"]:hover {
+  opacity: 1;
+} 
+
+ .progressBar input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36%;
+  height: 2px;
+  background: #2563eb;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  cursor: pointer;
+} 
+
+.progressBar input[type="range"]::-moz-range-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  height: 2px;
+  background: #2563eb;
+  cursor: pointer;
+}
